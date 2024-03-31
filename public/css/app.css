@@ -4580,7 +4580,7 @@ fieldset:disabled .btn {
 
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show {
-    color: var(--bs-navbar-active-color)
+    color: #299B28
 }
 
 .navbar-nav .dropdown-menu {
@@ -17858,12 +17858,12 @@ tbody th {
 }
 
 .navbar-nav .nav-link:not(.active) {
-    color: var(--bs-navbar-color)
+    color: white
 }
 
 .navbar-nav .nav-link:not(.active):focus,
 .navbar-nav .nav-link:not(.active):hover {
-    color: var(--bs-navbar-hover-color)
+    color: #299B28
 }
 
 .navbar-brand {
@@ -18642,7 +18642,7 @@ tbody th {
 
     .navbar-vertical.navbar-expand-md .navbar-nav .nav-link.active:before {
         border-bottom: 0;
-        border-left: 2px solid var(--bs-primary);
+        border-left: 2px solid #299B28;
         bottom: var(--bs-nav-link-padding-y);
         left: 0;
         right: auto;
@@ -19224,8 +19224,8 @@ tbody th {
 }
 
 [data-bs-theme=dark] .navbar {
-    --bs-navbar-bg: var(--bs-gray-800-dark);
-    --bs-navbar-border-color: var(--bs-gray-800-dark);
+    --bs-navbar-bg: #1A1E1C;
+    --bs-navbar-border-color: #1A1E1C;
     --bs-navbar-hover-color: var(--bs-white);
     --bs-navbar-active-color: var(--bs-white);
     --bs-navbar-brand-color: var(--bs-white);

@@ -8,6 +8,9 @@ function App() {
       <Routes>
         <Route element={<MainLayout />}>
           <Route path="/" element={<Home />} />
+          <Route path="/asset" element={<Home />} />
+          <Route path="/trade" element={<Home />} />
+          <Route path="/wallet" element={<Home />} />
         </Route>
       </Routes>
     </Router>

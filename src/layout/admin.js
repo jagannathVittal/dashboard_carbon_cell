@@ -5,7 +5,7 @@ const MainLayout = () => {
     return (
         <>
             <SideNav />
-            <div className="main-content">
+            <div className="main-content carbon_main_layout">
                 <div className="container-fluid"><Outlet /></div>
             </div>
         </>

@@ -1,0 +1,17 @@
+@media (min-width: 768px) {
+    .carbon_main_layout {
+        margin-left: 250px;
+    }
+}
+
+.carbon_light_green {
+    background-color: #2AB42A;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.background_grey {
+    color: #9B9C9C !important
+}
