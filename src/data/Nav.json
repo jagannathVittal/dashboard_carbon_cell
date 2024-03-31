@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Home",
+        "icon": "fe fe-home",
+        "link": "/"
+    },
+    {
+        "name": "Asset",
+        "icon": "fe fe-box",
+        "link": "/asset"
+    },
+    {
+        "name": "Trade",
+        "icon": "fe fe-dollar-sign",
+        "link": "/trade"
+    },
+    {
+        "name": "Wallet",
+        "icon": "fe fe-credit-card",
+        "link": "/wallet"
+    }
+]
