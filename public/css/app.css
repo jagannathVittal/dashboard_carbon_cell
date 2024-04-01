@@ -19684,9 +19684,9 @@ tbody th {
 
 [data-bs-theme=dark] .card {
     --bs-card-border-color: var(--bs-border-color);
-    --bs-card-bg: var(--bs-gray-800-dark);
+    --bs-card-bg: #0b0b0b;
     --bs-card-outline-color: var(--bs-gray-800-dark);
-    --bs-card-box-shadow: 0 0.75rem 1.5rem rgba(var(--bs-black-rgb), 0.5)
+    --bs-card-box-shadow: 0 0.75rem 1.5rem rgba(#0b0b0b, 0.5)
 }
 
 [data-bs-theme=dark] .accordion {
