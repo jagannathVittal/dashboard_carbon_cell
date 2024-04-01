@@ -13,12 +13,14 @@ const LineChart = ({ data }) => {
                 tension: 0.1,
                 color: 'yellow'
             }
-        ]
+        ],
+        borderColor: 'rgba(0,0,0,0.5)',
+        borderWidth: 1,
+        labelColor: 'yellow' // Custom property to define label color
     };
 
     const options = {
         scales: {
-
             x: {
                 grid: {
                     display: false
