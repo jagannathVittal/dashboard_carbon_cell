@@ -1,5 +1,6 @@
 import React from "react";
 import { Line } from "react-chartjs-2";
+// eslint-disable-next-line
 import Chart from 'chart.js/auto';
 const LineChart = ({ data }) => {
     const chartData = {
@@ -7,7 +8,7 @@ const LineChart = ({ data }) => {
         datasets: [
             {
                 label: "Population Info of United States",
-                data: data.map((elem) => elem?.Population),
+                data: data.map((elem) => (elem?.Population / 10000000).toFixed(2)),
                 borderColor: "rgb(172, 210, 79)",
                 tension: 0.1,
                 color: 'yellow'
@@ -38,7 +39,7 @@ const LineChart = ({ data }) => {
                 },
                 title: {
                     display: true,
-                    text: 'Population',
+                    text: 'Population in Crores',
                     color: 'white'
                 },
                 ticks: {

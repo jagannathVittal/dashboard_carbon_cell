@@ -44,7 +44,7 @@ const PieChart = ({ data }) => {
                 <div className="d-sm-flex flex-column text-small d-none ">
                     {data?.map((elem, index) => {
                         return (
-                            <span class="chart-legend-item ms-0">
+                            <span class="chart-legend-item ms-0 py-1" style={{ fontSize: 'smaller' }}>
                                 <span class="chart-legend-indicator" style={{ backgroundColor: color[index] }}>
                                 </span>{elem?.Year} - {(elem?.Population / 10000000).toFixed(2) + " Cr"}
                             </span>

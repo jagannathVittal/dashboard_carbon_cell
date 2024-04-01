@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Graph from "../components/grah";
+import Graph from "../components/graph";
 import { getGraphData } from "../api/helper";
 import Spinner from "../components/spinner";
 const Home = () => {
