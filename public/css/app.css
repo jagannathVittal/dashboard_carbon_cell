@@ -197,7 +197,7 @@ body {
 
 hr {
     border: 0;
-    border-top: var(--bs-border-width) solid;
+    border-top: #26292d solid;
     color: var(--bs-border-color);
     margin: 1rem 0;
     opacity: 1
@@ -17242,10 +17242,10 @@ tbody th {
 }
 
 [data-bs-theme=dark] .form-control {
-    --bs-input-bg: var(--bs-gray-700-dark);
-    --bs-input-border-color: var(--bs-gray-700-dark);
+    --bs-input-bg: #26292d;
+    --bs-input-border-color: #26292d;
     --bs-input-color: var(--bs-white);
-    --bs-input-focus-bg: var(--bs-gray-700-dark);
+    --bs-input-focus-bg: #26292d;
     --bs-input-focus-color: var(--bs-white);
     --bs-input-disabled-bg: var(--bs-gray-700-dark);
     --bs-input-disabled-border-color: var(--bs-gray-700-dark);
@@ -17537,8 +17537,8 @@ tbody th {
 }
 
 [data-bs-theme=dark] .input-group-text {
-    background-color: var(--bs-gray-700-dark);
-    border-color: var(--bs-gray-700-dark)
+    background-color: #26292d;
+    border-color: #26292d;
 }
 
 [data-bs-theme=light] .input-group-text {
@@ -17837,7 +17837,7 @@ tbody th {
 }
 
 .navbar .navbar-user {
-    border-top-color: var(--bs-navbar-divider-color)
+    border-top-color: #26292d
 }
 
 .navbar .navbar-user-link {
@@ -19311,8 +19311,8 @@ tbody th {
 
 .card {
     --bs-card-margin-bottom: 1.5rem;
-    --bs-card-outline-color: var(--bs-gray-200);
-    border-color: var(--bs-card-outline-color);
+    --bs-card-outline-color: #26292d;
+    border-color: #26292d;
     box-shadow: var(--bs-card-box-shadow);
     margin-bottom: var(--bs-card-margin-bottom)
 }
@@ -19683,7 +19683,7 @@ tbody th {
 }
 
 [data-bs-theme=dark] .card {
-    --bs-card-border-color: var(--bs-border-color);
+    --bs-card-border-color: #26292d;
     --bs-card-bg: #0b0b0b;
     --bs-card-outline-color: var(--bs-gray-800-dark);
     --bs-card-box-shadow: 0 0.75rem 1.5rem rgba(#0b0b0b, 0.5)
@@ -20385,7 +20385,7 @@ tbody th {
 }
 
 .header-body {
-    border-bottom: var(--bs-header-body-border-width) solid var(--bs-header-body-border-color)
+    border-bottom: var(--bs-header-body-border-width) solid #26292d
 }
 
 .header-body,
