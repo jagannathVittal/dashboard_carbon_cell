@@ -17172,7 +17172,7 @@ tbody th {
 
 .form-control:focus {
     background-color: var(--bs-input-focus-bg);
-    border-color: var(--bs-input-focus-border-color);
+    border-color: #299B28;
     color: var(--bs-input-focus-color)
 }
 
@@ -17413,7 +17413,7 @@ tbody th {
 }
 
 .input-group-merge>.form-control:focus+.input-group-text {
-    border-color: var(--bs-primary)
+    border-color: #299B28
 }
 
 .input-group>:not(:first-child):not(.dropdown-menu) {
@@ -17907,7 +17907,7 @@ tbody th {
 }
 
 .navbar-nav .nav-link.active:before {
-    border-left: 2px solid var(--bs-primary);
+    border-left: 2px solid #299B28;
     bottom: var(--bs-nav-link-padding-y);
     content: "";
     left: 0;
