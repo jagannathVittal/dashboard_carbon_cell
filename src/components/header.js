@@ -1,6 +1,9 @@
 import React from "react";
+import { useLocation } from "react-router-dom";
+import ConnectWallet from "./connectWallet";
 
 const Header = () => {
+    const location = useLocation();
     return (
         <>
             <div class="header">
@@ -16,9 +19,7 @@ const Header = () => {
                                 </h1>
                             </div>
                             <div class="col-auto">
-                                <a href="#!" class="btn carbon_light_green lift">
-                                    Launch Wallet
-                                </a>
+                                {location?.pathname !== "/wallet" && <ConnectWallet />}
                             </div>
                         </div>
                     </div>
