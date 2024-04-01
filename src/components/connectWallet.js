@@ -20,7 +20,8 @@ const ConnectWallet = () => {
     };
     return (
         <>
-            <a class="btn carbon_light_green lift" onClick={handleConnectWallet}>
+            {/* eslint-disable-next-line  */}
+            <a className="btn carbon_light_green lift" onClick={handleConnectWallet}>
                 Connect Wallet
             </a>
             <ToastContainer />

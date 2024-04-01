@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 const data = require('../data/Nav.json')
@@ -30,7 +31,7 @@ const SideNav = () => {
                             <ul className="navbar-nav">
                                 {data && data?.map((elem) => {
                                     return (
-                                        <li className="nav-item">
+                                        <li className="nav-item" key={elem.name}>
                                             <a className={`nav-link cursor-pointer ${elem?.link === location.pathname ? 'active' : ''}`} onClick={() => { navigate(elem?.link) }}>
                                                 <i className={`fe fe-${elem?.icon}`}></i>{elem?.name}
                                             </a>
@@ -41,7 +42,7 @@ const SideNav = () => {
                             <ul className="navbar-nav mt-md-4 ">
                                 <li className="nav-item cursor-pointer">
                                     <a className="nav-link background_grey" onClick={() => { navigate("/") }}>
-                                        <i className="fe fe-bell text-white"></i> Notification<span className="badge ms-auto carbon_light_green" st> 2 </span>
+                                        <i className="fe fe-bell text-white"></i> Notification<span className="badge ms-auto carbon_light_green"> 2 </span>
                                     </a>
                                 </li>
                                 <li className="nav-item cursor-pointer">

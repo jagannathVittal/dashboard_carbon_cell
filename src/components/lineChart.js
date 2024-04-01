@@ -52,14 +52,14 @@ const LineChart = ({ data }) => {
     }
     return (
 
-        <div class="card">
-            <div class="card-header">
-                <h4 class="card-header-title">
+        <div className="card">
+            <div className="card-header">
+                <h4 className="card-header-title">
                     Line Chart
                 </h4>
             </div>
-            <div class="card-body">
-                <div class="chart d-flex justify-content-center align-items-center">
+            <div className="card-body">
+                <div className="chart d-flex justify-content-center align-items-center">
                     <Line data={chartData} options={options} />
                 </div>
             </div>
