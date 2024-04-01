@@ -31,21 +31,21 @@ const PieChart = ({ data }) => {
 
     return (
 
-        <div class="card">
-            <div class="card-header">
-                <h4 class="card-header-title">
+        <div className="card">
+            <div className="card-header">
+                <h4 className="card-header-title">
                     Pie Chart
                 </h4>
             </div>
-            <div class="card-body d-flex justify-content-center align-items-center">
-                <div class="chart">
+            <div className="card-body d-flex justify-content-center align-items-center">
+                <div className="chart">
                     <Doughnut data={chartData} />
                 </div>
                 <div className="d-sm-flex flex-column text-small d-none ">
                     {data?.map((elem, index) => {
                         return (
-                            <span class="chart-legend-item ms-0 py-1" style={{ fontSize: 'smaller' }}>
-                                <span class="chart-legend-indicator" style={{ backgroundColor: color[index] }}>
+                            <span className="chart-legend-item ms-0 py-1" key={elem?.Year} style={{ fontSize: 'smaller' }}>
+                                <span className="chart-legend-indicator" style={{ backgroundColor: color[index] }}>
                                 </span>{elem?.Year} - {(elem?.Population / 10000000).toFixed(2) + " Cr"}
                             </span>
                         )
