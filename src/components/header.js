@@ -18,7 +18,7 @@ const Header = () => {
                                     Hello, <span style={{ color: '#ACD24F' }}>Jagannath Vittal 👋</span>
                                 </h1>
                             </div>
-                            <div className="col-auto">
+                            <div className="col-auto d-none d-sm-block">
                                 {location?.pathname !== "/wallet" && <ConnectWallet />}
                             </div>
                         </div>
