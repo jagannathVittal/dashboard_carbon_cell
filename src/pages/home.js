@@ -14,6 +14,7 @@ const Home = () => {
         setData(res?.data)
         setSpinner(false)
     }
+
     return (
         <div className="container-fluid">
             <Spinner show={spinner}>
