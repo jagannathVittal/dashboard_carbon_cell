@@ -123,7 +123,7 @@
 [data-bs-theme=dark] {
     --bs-body-color: #fff;
     --bs-body-color-rgb: 255, 255, 255;
-    --bs-body-bg: #12263f;
+    --bs-body-bg: #0B0B0B;
     --bs-body-bg-rgb: 18, 38, 63;
     --bs-emphasis-color: #fff;
     --bs-emphasis-color-rgb: 255, 255, 255;
@@ -3475,8 +3475,8 @@ textarea.form-control-lg {
 }
 
 .btn:hover {
-    background-color: var(--bs-btn-hover-bg);
-    border-color: var(--bs-btn-hover-border-color);
+    background-color: darkgreen;
+    border-color: darkgreen;
     color: var(--bs-btn-hover-color)
 }
 
@@ -3505,8 +3505,8 @@ textarea.form-control-lg {
 .btn.show,
 .btn:first-child:active,
 :not(.btn-check)+.btn:active {
-    background-color: var(--bs-btn-active-bg);
-    border-color: var(--bs-btn-active-border-color);
+    background-color: darkgreen;
+    border-color: darkgreen;
     color: var(--bs-btn-active-color)
 }
 
@@ -17172,7 +17172,7 @@ tbody th {
 
 .form-control:focus {
     background-color: var(--bs-input-focus-bg);
-    border-color: var(--bs-input-focus-border-color);
+    border-color: #299B28;
     color: var(--bs-input-focus-color)
 }
 
@@ -17413,7 +17413,7 @@ tbody th {
 }
 
 .input-group-merge>.form-control:focus+.input-group-text {
-    border-color: var(--bs-primary)
+    border-color: #299B28
 }
 
 .input-group>:not(:first-child):not(.dropdown-menu) {
@@ -17907,7 +17907,7 @@ tbody th {
 }
 
 .navbar-nav .nav-link.active:before {
-    border-left: 2px solid var(--bs-primary);
+    border-left: 2px solid #299B28;
     bottom: var(--bs-nav-link-padding-y);
     content: "";
     left: 0;
@@ -20423,7 +20423,7 @@ tbody th {
 }
 
 [data-bs-theme=dark] .header {
-    --bs-header-bg: var(--bs-black);
+    --bs-header-bg: #0B0B0B;
     --bs-header-color: var(--bs-white);
     --bs-header-tabs-link-color: var(--bs-white);
     --bs-header-tabs-link-hover-color: var(--bs-white)
