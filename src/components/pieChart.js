@@ -1,5 +1,6 @@
 import React from "react";
 import { Doughnut } from "react-chartjs-2";
+// eslint-disable-next-line
 import Chart from 'chart.js/auto';
 const PieChart = ({ data }) => {
     const color = [
